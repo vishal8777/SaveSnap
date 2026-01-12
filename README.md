@@ -1,4 +1,4 @@
-*** 🚀 SaveSnap CLI***
+🚀 ***SaveSnap CLI***
 
 SaveSnap CLI is a Python-based command-line snapshot and version management tool that allows users to track project changes locally and store commit metadata securely in Firebase Cloud Firestore.
 It also provides an Educational Mode for learning basic version control concepts.
