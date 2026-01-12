@@ -33,20 +33,31 @@ VS Code
 **📂 Project Structure**
 
 SAVESNAP/
+
 │
+
 ├── savesnap.py
+
 ├── firestoretest.py
+
 ├── firestore_bulk_commits.py
+
 ├── test.txt
+
 ├── test1.txt
+
 ├── .gitignore
+
 └── README.md
+
 
 
 **⚙️ Installation**
 
 git clone https://github.com/Rin871-tech/SAVESNAP.git
+
 cd SAVESNAP
+
 pip install firebase-admin
 
 
@@ -65,21 +76,34 @@ firebase_key.json
 
 **▶️ Usage**
 
-Initialize Repository
+*Initialize Repository*
+
 python savesnap.py init
-Create a Commit
+
+*Create a Commit*
+
 python savesnap.py commit "Added test file"
-View Commit History
+
+*View Commit History*
+
 python savesnap.py log
-Checkout a Commit
+
+*Checkout a Commit*
+
 python savesnap.py checkout <commit_id>
-Undo Checkout
+
+*Undo Checkout*
+
 python savesnap.py undo-checkout
-Educational Mode
+
+*Educational Mode*
+
 python savesnap.py edu
 
 
+
 **☁️ Firebase Firestore Integration**
+
 Each commit is saved as a document inside the savesnap_commits collection, storing:
 
 Commit ID
