@@ -76,29 +76,29 @@ firebase_key.json
 
 **▶️ Usage**
 
-*Initialize Repository*
+*-Initialize Repository*
 
-python savesnap.py init
+  python savesnap.py init
 
-*Create a Commit*
+*-Create a Commit*
 
-python savesnap.py commit "Added test file"
+  python savesnap.py commit "Added test file"
 
-*View Commit History*
+*-View Commit History*
 
-python savesnap.py log
+  python savesnap.py log
 
-*Checkout a Commit*
+*-Checkout a Commit*
 
-python savesnap.py checkout <commit_id>
+  python savesnap.py checkout <commit_id>
 
-*Undo Checkout*
+*-Undo Checkout*
 
-python savesnap.py undo-checkout
+  python savesnap.py undo-checkout
 
-*Educational Mode*
+*-Educational Mode*
 
-python savesnap.py edu
+  python savesnap.py edu
 
 
 
